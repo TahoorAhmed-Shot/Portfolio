@@ -8,6 +8,7 @@ const Skills = () => {
       <Title text="Skills" icon={<GiSkills />} />
       <div className="flex gap-4 flex-wrap">
         <SkillsInput
+        
           title="Javascript"
           link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         />
