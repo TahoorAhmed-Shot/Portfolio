@@ -9,14 +9,15 @@ import Skills from "@/components/Skills";
 export default function Home() {
   return (
     <main className="w-full">
-      <div className="max-w-screen-xl mx-auto lg:pt-10">
-        <Banner />
-        <Aboutme />
-        <Experience />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
+      <div className="max-w-screen-xl mx-auto lg:pt-10 ">
+          <Banner />
+          <Aboutme />
+          <Experience />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+      
       </div>
     </main>
   );

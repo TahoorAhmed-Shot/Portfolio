@@ -13,8 +13,8 @@ const ExperienceCard = ({ title, subTitle, icon }: Props) => {
         <span className="text-2xl text-slate-200">{icon}</span>
       </span>
       <div>
-        <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="text-base tracking-wide text-gray-600">{subTitle}</p>
+        <h3 className="md:text-2xl text-xl font-bold">{title}</h3>
+        <p className="text-base tracking-wide text-gray-500">{subTitle}</p>
       </div>
     </div>
   );

@@ -3,9 +3,9 @@ import Title from "./Title";
 
 const Aboutme = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper px-3">
       <Title text="About Me" icon={<SiInformatica />} />
-      <div className="text-lg tracking-wide flex flex-col gap-6">
+      <div className="md:text-lg text-base font-medium tracking-wide flex flex-col gap-6 ">
         <p>
           My name is Tahoor Ahmed, and I am a highly skilled MERN (MongoDB,
           Express.js, React.js, Node.js) developer with 2 years of professional

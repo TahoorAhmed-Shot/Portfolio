@@ -4,11 +4,10 @@ import SkillsInput from "./SkillsInput";
 
 const Skills = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper px-3  ">
       <Title text="Skills" icon={<GiSkills />} />
       <div className="flex gap-4 flex-wrap">
         <SkillsInput
-        
           title="Javascript"
           link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         />
